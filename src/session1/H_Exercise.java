@@ -9,19 +9,15 @@ import java.util.Scanner;
  */
 public class H_Exercise {
     public static void main(String[] args) {
-        int e;
-        int result;
 
         Scanner scanner = new Scanner(System.in);  // Create a Scanner object to read from standard input
 
         System.out.print("Enter an integer: ");
         int number = scanner.nextInt();
 
-        result = 1;
-        e = number;
-        while (e > 0) {
-            result *= 2;
-            e--;
+        int result = 1;
+        for (int i = 0; i < number; i++) {
+            result*=2;
         }
 
         System.out.println(result);

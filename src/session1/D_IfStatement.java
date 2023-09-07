@@ -44,6 +44,6 @@ public class D_IfStatement {
 
     public static void main(String[] args) {
         D_IfStatement.demoWithIf();
-        // IfStatementDemo.demoWithIfElse(); Uncomment to see the output for 'demoWithIfElse'
+        D_IfStatement.demoWithIfElse(); //Uncomment to see the output for 'demoWithIfElse'
     }
 }
