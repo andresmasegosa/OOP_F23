@@ -27,7 +27,7 @@ class C_Excercise {
         // Resetting the intValue and demonstrating the difference between
         // integer division (and casting) and direct floating-point division
         intValue = 10;
-        double resultUsingIntDivision = intValue / 4;
+        double resultUsingIntDivision = intValue / 4.0;
         System.out.println("Result using integer division: " + resultUsingIntDivision);
 
         double resultUsingFloatDivision = intValue / 4.0;

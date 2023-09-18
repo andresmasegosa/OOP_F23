@@ -25,7 +25,7 @@ public class E_ForLoop {
             System.out.println(i);
         }
 
-        // System.out.println(i * i);
+        //System.out.println(i * i);
     }
 
     /**
