@@ -5,7 +5,7 @@ package session3.A_DesignNoInterfaceNoInheritance;
  *  * a) A Chess piece has a type (e.g., "King", "Queen", "Bishop", etc.), a color, a position in the chessboard
  *      and a reference to the ChessBoard where it is placed.
  *  * b) Define the class, the constructor and the getter and setter methods.
- *  * c) Implement the method "
+ *  * c) Implement the method "isLegalTheMovement"
  **/
 
 public class ChessPiece {

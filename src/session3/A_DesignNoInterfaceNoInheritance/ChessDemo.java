@@ -6,10 +6,6 @@ public class ChessDemo {
         //Create the Chess Board
         ChessBoard chessBoard = new ChessBoard();
 
-        //Start to move pieces
-        boolean success = chessBoard.moveChessPiece(king,1,7);
-        System.out.println(success);
-
 
     }
 }
