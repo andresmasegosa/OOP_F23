@@ -18,6 +18,7 @@ public class ChessBoard {
         piece.setY(y);
     }
 
+
     public boolean moveChessPiece(ChessPiece piece, int newX, int newY){
         boolean success = piece.isLegalTheMovement(newX,newY);
         if (!success)
