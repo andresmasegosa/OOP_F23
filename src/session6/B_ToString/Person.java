@@ -11,6 +11,13 @@ public class Person {
         this.age = age;
     }
 
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                '}';
+    }
 
     public static void main(String[] args) {
 
@@ -19,7 +26,7 @@ public class Person {
         System.out.println(person1);
 
         Person person2 = new Person("Anders Madsen", 38);
-        System.out.println(person2);
+        System.out.println(person2.toString());
 
     }
 

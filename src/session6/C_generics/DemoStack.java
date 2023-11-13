@@ -1,6 +1,5 @@
 package session6.C_generics;
 
-import java.util.Stack;
 
 public class DemoStack {
 

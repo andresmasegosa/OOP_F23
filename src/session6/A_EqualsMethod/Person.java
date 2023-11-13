@@ -2,7 +2,7 @@ package session6.A_EqualsMethod;
 
 import java.util.Objects;
 
-public class Person {
+public class Person{
     String name;
     int age;
 
@@ -11,13 +11,25 @@ public class Person {
         this.age = age;
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Person person = (Person) o;
+        return Objects.equals(name, person.name);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name);
+    }
 
     public static void main(String[] args) {
 
         //Create the object
         Person person1 = new Person("Anders Madsen", 38);
 
-        Person person2 = new Person("Anders Madsen", 39);
+        Person person2 = new Person("Anders Madsen", 48);
 
         if (person1.equals(person2))
             System.out.println("They are equal");

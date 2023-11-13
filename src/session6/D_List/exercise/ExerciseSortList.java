@@ -14,7 +14,10 @@ public class ExerciseSortList {
         people.add(new Person("Mads", 28));
         people.add(new Person("Jakob", 21));
 
-        //people.sort(comparator);
+        //Comparator<Person> comparator = new CompareByAge();
+        Comparator<Person> comparator = new CompareAlphabeticalOrder();
+
+        people.sort(comparator);
 
         for (Person person: people){
             System.out.println(person);

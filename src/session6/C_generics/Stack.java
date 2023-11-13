@@ -1,4 +1,4 @@
-package session6.c_generics;
+package session6.C_generics;
 
 public class Stack<T> {
     private T[] stack;
