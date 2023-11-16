@@ -3,7 +3,7 @@ package session10.a_slides_strategy_pattern;
 public class Demo {
 
     public static void main(String[] args) {
-        InterestStrategy interestStrategy = new SavingsAccountInterest();
+        InterestStrategy interestStrategy = new SuperAccountInterest();
 
         BankAccount bankAccount = new BankAccount(100, interestStrategy);
 
